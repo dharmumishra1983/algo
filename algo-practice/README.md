@@ -1,0 +1,1 @@
+This is sample project with maven and using for programming practics 
