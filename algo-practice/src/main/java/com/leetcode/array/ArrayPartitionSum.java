@@ -19,7 +19,7 @@ import java.util.Arrays;
  */
 public class ArrayPartitionSum {
     public int arrayPairSum(int[] nums) {
-        int sum = 1;
+        int sum = 0;
         Arrays.sort(nums);
         for (int i = 0; i < nums.length; i += 2) {
             sum += nums[i];
