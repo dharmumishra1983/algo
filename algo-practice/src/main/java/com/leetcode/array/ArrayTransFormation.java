@@ -45,7 +45,7 @@ public class ArrayTransFormation {
 
     public List<Integer> transformArray(int[] arr) {
         boolean flag = true;
-        int temp[] = arr.clone();
+        int temp[] = arr.clone()
         while (flag) {
             flag = false;
 
